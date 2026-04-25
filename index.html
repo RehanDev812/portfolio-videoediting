@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rehan Sajid Video Editor</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+<link rel="icon" type="image/x-icon" href="images/Capture.PNG" >
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <nav id="navbar">
+        <a href="#hero" class="nav-logo">R<span>S</span></a>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#hero" class="mob-link">Home</a>
+        <a href="#about" class="mob-link">About</a>
+        <a href="#portfolio" class="mob-link">Portfolio</a>
+        <a href="#testimonials" class="mob-link">Testimonials</a>
+        <a href="#services" class="mob-link">Services</a>
+        <a href="#contact" class="mob-link">Contact</a>
+    </div>
+
+    <section id="hero">
+        <div class="hero-gallery">
+            <img src="images/c018d2e620a60ddfb17100104083bec8.jpg" alt="" />
+            <img src="images/download (11).jfif">
+            <img src="images/download (12).jpg">
+            <img src="images/Rest in peace 🕊️☮️🕉️.jpg" alt="" />
+            <img src="https://iili.io/BrGGLN4.jpg" alt="" />
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-eyebrow"> Video Editor</p>
+            <h1 class="hero-title">
+                Rehan<br>
+                <em>Sajid</em>
+                <span class="gold">JANJUA</span>
+            </h1>
+            <p class="hero-sub">Crafting visual identities and cinematic stories that leave a lasting impression —
+                through design, motion, and brand.</p>
+            <div class="hero-btns">
+                <a href="#portfolio" class="btn-primary">View Work</a>
+                <a href="#contact" class="btn-outline">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <div class="scroll-line"></div>
+            Scroll Down
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-img-wrap reveal">
+            <img src="images/WhatsApp_Image_2025-08-15_at_3.25.26_AM-removebg-preview.png" alt="About" class="about-img" />
+            <div class="about-tag">3+<br>Years<br>Experience</div>
+        </div>
+        <div class="reveal" style="transition-delay:0.15s">
+            <p class="section-label">About Me</p>
+            <h2 class="section-title">Creative Vision<br>Meets <em>Precision</em></h2>
+            <p class="about-text">I am a creative professional dedicated to the art of visual storytelling. With over 3
+                years of experience, I bridge the gap between static design and cinematic motion to help brands tell
+                their unique stories.</p>
+            <p class="about-text">My approach is rooted in the belief that every frame matters. Whether I’m crafting a
+                minimalist brand identity or editing a fast-paced corporate campaign, my goal is to create an emotional
+                connection with the audience. I specialize in transforming raw concepts into polished, high-impact
+                visual experiences through a blend of technical expertise and artistic intuition. Let’s turn your vision
+                into a lasting impression.</p>
+            <div class="skills">
+                <div class="skill-row">
+                    <div class="skill-top"><span>Social-Media Reels</span><span class="skill-pct">95%</span></div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-w="95"></div>
+                    </div>
+                </div>
+                <div class="skill-row">
+                    <div class="skill-top"><span>Fast-Pacing Ads</span><span class="skill-pct">92%</span></div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-w="92"></div>
+                    </div>
+                </div>
+                <div class="skill-row">
+                    <div class="skill-top"><span>AI-Generated Videos</span><span class="skill-pct">88%</span></div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-w="88"></div>
+                    </div>
+                </div>
+                <div class="skill-row">
+                    <div class="skill-top"><span>Documentaray Videos</span><span class="skill-pct">88%</span></div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-w="88"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <section id="portfolio">
+
+    <div class="section-header reveal">
+      <p class="section-label">Portfolio</p>
+      <h2 class="section-title">Selected Works</h2>
+    </div>
+
+    <div class="filters reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="social">Social-Media Ads</button>
+      <button class="filter-btn" data-filter="ai">AI Videos</button>
+      <button class="filter-btn" data-filter="documentary">Documentary</button>
+    </div>
+
+    <div class="portfolio-grid">
+
+      <!-- ALL + DOCUMENTARY -->
+      <div class="portfolio-item reveal" data-cat="documentary">
+        <video src="images/winter.mp4" autoplay loop muted playsinline></video>
+        <div class="portfolio-overlay">
+          <div class="play-icon">&#9654;</div>
+          <p class="portfolio-cat">Story Telling</p>
+          <p class="portfolio-name">Documentary Videos</p>
+          <p class="portfolio-desc">Professional video production</p>
+        </div>
+      </div>
+
+      <!-- ALL + AI -->
+      <div class="portfolio-item reveal" data-cat="ai">
+        <video src="images/491c47feb8d34a8a8bf267a7f0c1ced2.mp4" autoplay loop muted playsinline></video>
+        <div class="portfolio-overlay">
+          <div class="play-icon">&#9654;</div>
+          <p class="portfolio-cat">AI</p>
+          <p class="portfolio-name">Historical Videos</p>
+          <p class="portfolio-desc">Ancient worlds, automated.</p>
+        </div>
+      </div>
+
+      <!-- ALL + SOCIAL -->
+      <div class="portfolio-item reveal" data-cat="social">
+        <video src="images/lv_0_20250828131537.mp4" autoplay loop muted playsinline></video>
+        <div class="portfolio-overlay">
+          <div class="play-icon">&#9654;</div>
+          <p class="portfolio-cat">Knowledge</p>
+          <p class="portfolio-name">Educational Video</p>
+          <p class="portfolio-desc">Learning made visual.</p>
+        </div>
+      </div>
+
+      <!-- ALL + SOCIAL -->
+      <div class="portfolio-item reveal" data-cat="social">
+        <video src="images/WhatsApp Video 2026-04-25 at 2.19.53 PM.mp4" autoplay loop muted playsinline></video>
+        <div class="portfolio-overlay">
+          <div class="play-icon">&#9654;</div>
+          <p class="portfolio-cat">Social-Media Ads</p>
+          <p class="portfolio-name">Corporate Video</p>
+          <p class="portfolio-desc">Vision drives sales.</p>
+        </div>
+      </div>
+
+      <!-- ALL + DOCUMENTARY -->
+      <div class="portfolio-item reveal" data-cat="documentary">
+        <video src="images/WhatsApp Video 2026-04-25 at 2.34.52 PM.mp4" autoplay loop muted playsinline></video>
+        <div class="portfolio-overlay">
+          <div class="play-icon">&#9654;</div>
+          <p class="portfolio-cat">Video Editing</p>
+          <p class="portfolio-name">Documentary-Style</p>
+          <p class="portfolio-desc">Clarifying through cinema.</p>
+        </div>
+      </div>
+
+      <!-- ALL + AI -->
+      <div class="portfolio-item reveal" data-cat="ai">
+        <video src="images/8870e6a0dc409ad47147d9f877abff38.mp4" autoplay loop muted playsinline></video>
+        <div class="portfolio-overlay">
+          <div class="play-icon">&#9654;</div>
+          <p class="portfolio-cat">Reels</p>
+          <p class="portfolio-name">Social-Media</p>
+          <p class="portfolio-desc">Looping pure energy.</p>
+        </div>
+      </div>
+
+      <!-- EXTRA: SOCIAL -->
+      <div class="portfolio-item reveal" data-cat="social">
+        <video src="images/a7447acff6cbc68d6ff681d8e3139d5c_720w.mp4" autoplay loop muted playsinline></video>
+        <div class="portfolio-overlay">
+          <div class="play-icon">&#9654;</div>
+          <p class="portfolio-cat">Social-Media Ads</p>
+          <p class="portfolio-name">Brand Spotlight</p>
+          <p class="portfolio-desc">Bold stories, sharp edits.</p>
+        </div>
+      </div>
+
+      <!-- EXTRA: AI -->
+      <div class="portfolio-item reveal" data-cat="ai">
+        <video src="images/62ef73d5ae9fc84f61b17035bb3affbb_720w.mp4" autoplay loop muted playsinline></video>
+        <div class="portfolio-overlay">
+          <div class="play-icon">&#9654;</div>
+          <p class="portfolio-cat">AI</p>
+          <p class="portfolio-name">Future Worlds</p>
+          <p class="portfolio-desc">Rendered by machines.</p>
+        </div>
+      </div>
+
+      <!-- EXTRA: DOCUMENTARY -->
+      <div class="portfolio-item reveal" data-cat="documentary">
+        <video src="images/Modern.mp4" autoplay loop muted playsinline></video>
+        <div class="portfolio-overlay">
+          <div class="play-icon">&#9654;</div>
+          <p class="portfolio-cat">Documentary</p>
+          <p class="portfolio-name">Untold Stories</p>
+          <p class="portfolio-desc">Truth in motion.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Empty state message -->
+    <div class="empty-state" id="emptyState">No videos in this category yet.</div>
+
+  </section>
+
+    <section id="testimonials">
+        <div class="section-header reveal">
+            <p class="section-label">Testimonials</p>
+            <h2 class="section-title">Client Words</h2>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card reveal">
+                <span class="quote-mark">"</span>
+                <p class="testimonial-text">I’ve worked with several editors, but none understand viewer retention quite
+                    like this. The pacing is relentless, and the 'Hormozi-style' captions are executed with incredible
+                    precision. Since we started collaborating, my average watch time has increased by 40%. If you need
+                    your short-form content to actually convert and keep people watching until the very last second,
+                    look no further.</p>
+                <div class="testimonial-author">
+                    <img src="https://picsum.photos/seed/author1/60/60" alt="Sarah Johnson" class="author-img" />
+                    <div>
+                        <div class="author-name">Sarah Johnson</div>
+                        <div class="author-role">CEO, TechVision</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="testimonial-card reveal">
+                <span class="quote-mark">"</span>
+                <p class="testimonial-text">"Finding an editor who can handle complex historical narratives and
+                    documentary-style storytelling is rare. The attention to detail in the sound design and the way the
+                    B-roll is woven into the script is masterclass level. They don't just cut clips together; they build
+                    an atmosphere. The final product was cinematic, polished, and exceeded every expectation I had for
+                    my YouTube channel."</p>
+                <div class="testimonial-author">
+                    <img src="images/Professional Businesswoman Portrait _ Corporate Headshot Photography for Personal Branding.jfif" alt="Sarah Johnson" class="author-img" />
+                    <div>
+                        <div class="author-name">Elena Rodriguez</div>
+                        <div class="author-role">Educational Creator</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="testimonial-card reveal">
+                <span class="quote-mark">"</span>
+                <p class="testimonial-text">"Professionalism and technical skill at its finest. We handed over a
+                    disorganized mess of raw footage and received a sleek, high-end brand video that perfectly captured
+                    our UI/UX vision. The motion graphics were clean, and the color grading gave the entire project a
+                    premium feel. Fast turnaround times without sacrificing a shred of quality—absolute lifesavers for
+                    our marketing launch.</p>
+                <div class="testimonial-author">
+                    <img src="images/download (13).jfif" alt="Sarah Johnson" class="author-img" />
+                    <div>
+                        <div class="author-name">David Chen</div>
+                        <div class="author-role">Director at TechFlow Solutions</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="section-header reveal">
+            <p class="section-label">Services</p>
+            <h2 class="section-title">What I Offer</h2>
+        </div>
+        <div class="services-grid reveal">
+            <div class="service-card">
+                <div class="service-num">01</div>
+                <div class="service-icon">✦</div>
+                <h3 class="service-title">Social-Media ADS</h3>
+                <p class="service-desc">Transform your raw footage into high-retention masterpieces.
+                    I specialize in Hormozi-style captions and cinematic pacing that keeps viewers hooked until the
+                    final second.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-num">02</div>
+                <div class="service-icon">◈</div>
+                <h3 class="service-title">AI VIDEOS</h3>
+                <p class="service-desc">Step into the future with AI-powered video editing and synthesis. I combine
+                    cutting-edge artificial intelligence with cinematic post-production to create visuals that were once
+                    impossible.
+                    Scale your content beyond imagination—let’s build your AI-driven vision today.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-num">03</div>
+                <div class="service-icon">◇</div>
+                <h3 class="service-title">DOCUMENTARY</h3>
+                <p class="service-desc">From narrative compression to high-fidelity color grading, I turn complex ideas
+                    into cinematic visual experiences.
+                    Premium editing for creators who value quality—book your project today.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-header reveal">
+            <p class="section-label">Contact</p>
+            <h2 class="section-title">Get In Touch</h2>
+        </div>
+        <div class="contact-wrap reveal">
+            <div>
+                <div class="contact-info-item">
+                    <div class="ci-icon">✉</div>
+                    <div>
+                        <div class="ci-label">Email</div>
+                        <div class="ci-value">itxrehan75@gmail.com</div>
+                    </div>
+                </div>
+                <div class="contact-info-item">
+                    <div class="ci-icon">☏</div>
+                    <div>
+                        <div class="ci-label">Phone</div>
+                        <div class="ci-value">+92 320 9819252</div>
+                    </div>
+                </div>
+                <div class="contact-info-item">
+                    <div class="ci-icon">◎</div>
+                    <div>
+                        <div class="ci-label">Location</div>
+                        <div class="ci-value">Rawalpindi, Pakistan</div>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" placeholder="Your Name" />
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" placeholder="your@email.com" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Subject</label>
+                    <input type="text" placeholder="Project Inquiry" />
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea placeholder="Tell me about your project..."></textarea>
+                </div>
+                <button type="submit" class="btn-primary" style="align-self:flex-start">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#hero" class="footer-logo">R<span>S</span></a>
+        <p class="footer-copy">© 2026 Rehan Sajid Janjua. All rights reserved.</p>
+        <div class="footer-social">
+            <a href="#" class="social-btn">in</a>
+            <a href="#" class="social-btn">be</a>
+            <a href="#" class="social-btn">ig</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
